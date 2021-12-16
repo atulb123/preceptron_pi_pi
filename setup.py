@@ -7,7 +7,7 @@ PROJECT_NAME = "preceptron_pi_pi"
 USER_NAME = "atulb123"
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.1",
+    version="0.0.2",
     author=USER_NAME,
     author_email="atulmysuru@example.com",
     description="implementation of perceptron",
@@ -24,7 +24,7 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.7",
+    python_requires=">=3.6",
     install_requires=[
         "numpy","matplotlib","pandas"
     ]
