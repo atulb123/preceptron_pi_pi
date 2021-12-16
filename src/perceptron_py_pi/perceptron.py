@@ -6,7 +6,7 @@ import joblib  # FOR SAVING MY MODEL AS A BINARY FILE
 from matplotlib.colors import ListedColormap
 import logging
 
-class Model:
+class Perceptron:
     def __init__(self, eta, ephocs):
         np.random.seed(42)
         self.eta = eta
